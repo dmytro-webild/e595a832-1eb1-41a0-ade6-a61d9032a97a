@@ -96,7 +96,7 @@ export default function LandingPage() {
           src: "http://img.b2bpic.net/free-photo/smiley-woman-posing_23-2148497205.jpg",          alt: "Guest 5"},
       ]}
       avatarText="Loved by thousands of guests"
-      imageSrc="http://img.b2bpic.net/free-photo/modern-sauna-interior-with-mountain-view-wood-light_169016-70841.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/modern-sauna-interior-with-mountain-view-wood-light_169016-70841.jpg?_wi=1"
       imageAlt="Lamar Azur Hotel luxurious lobby"
       mediaAnimation="slide-up"
       marqueeItems={[
@@ -216,7 +216,7 @@ export default function LandingPage() {
         {
           id: "4",          name: "Khaled El-Sayed",          date: "February 2024",          title: "Culinary Delights",          quote: "The food at Lamar Azur Hotel was absolutely incredible. Every meal was a delightful experience, with fresh ingredients and exquisite presentation. A foodie's paradise!",          tag: "Food Lover",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-man-cartoon-style_23-2151133862.jpg",          avatarAlt: "Khaled El-Sayed avatar",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-adult-couple-have-luxury-dinner-evening-time_146671-14526.jpg",          imageAlt: "Couple dining in a fine restaurant"},
         {
-          id: "5",          name: "Eleanor V.",          date: "January 2024",          title: "Exceptional Ambiance",          quote: "The serene atmosphere and elegant design truly made my stay memorable. Every corner exudes luxury and comfort. Highly recommend!",          tag: "Solo Retreat",          avatarSrc: "http://img.b2bpic.net/free-photo/smiley-woman-posing_23-2148497205.jpg",          avatarAlt: "happy business woman portrait smiling",          imageSrc: "http://img.b2bpic.net/free-photo/modern-sauna-interior-with-mountain-view-wood-light_169016-70841.jpg",          imageAlt: "happy business woman portrait smiling"
+          id: "5",          name: "Eleanor V.",          date: "January 2024",          title: "Exceptional Ambiance",          quote: "The serene atmosphere and elegant design truly made my stay memorable. Every corner exudes luxury and comfort. Highly recommend!",          tag: "Solo Retreat",          avatarSrc: "http://img.b2bpic.net/free-photo/smiley-woman-posing_23-2148497205.jpg",          avatarAlt: "happy business woman portrait smiling",          imageSrc: "http://img.b2bpic.net/free-photo/modern-sauna-interior-with-mountain-view-wood-light_169016-70841.jpg?_wi=2",          imageAlt: "happy business woman portrait smiling"
         },
       ]}
       title="Unforgettable Moments, Lasting Impressions"
