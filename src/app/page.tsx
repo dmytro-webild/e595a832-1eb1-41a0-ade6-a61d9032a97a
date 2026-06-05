@@ -57,8 +57,8 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "radial-gradient"}}
-      title="Experience Unparalleled Luxury at Lamar Azur Hotel"
-      description="Discover a tranquil escape where modern elegance meets breathtaking coastal beauty. Your unforgettable retreat begins here."
+      title="Lamar Azur Hotel: Your Ultimate Family Retreat in Damietta El-Gadeeda"
+      description="Designed for unforgettable family vacations, our resort offers spacious accommodation, diverse dining, and endless activities for all ages. Discover a tranquil escape where modern elegance meets coastal beauty."
       testimonials={[
         {
           name: "Amina S.",          handle: "@AminaTravels",          testimonial: "The Lamar Azur Hotel exceeded all my expectations. Impeccable service and stunning views!",          rating: 5,
@@ -96,8 +96,8 @@ export default function LandingPage() {
           src: "http://img.b2bpic.net/free-photo/smiley-woman-posing_23-2148497205.jpg",          alt: "Guest 5"},
       ]}
       avatarText="Loved by thousands of guests"
-      imageSrc="http://img.b2bpic.net/free-photo/modern-sauna-interior-with-mountain-view-wood-light_169016-70841.jpg?_wi=1"
-      imageAlt="Lamar Azur Hotel luxurious lobby"
+      imageSrc="http://img.b2bpic.net/free-photo/luxury-resort-with-swimming-pool-garden_1203-7215.jpg"
+      imageAlt="Lamar Azur Hotel exterior with swimming pool and garden"
       mediaAnimation="slide-up"
       marqueeItems={[
         {
@@ -118,7 +118,7 @@ export default function LandingPage() {
       <TextAbout
       useInvertedBackground={false}
       tag="Our Story"
-      title="A Legacy of Exceptional Hospitality in Damietta El-Gadeeda"
+      title="Lamar Azur Hotel: The Ultimate Family Retreat in Damietta El-Gadeeda"
       buttons={[
         {
           text: "Learn More About Us",          href: "#"},
@@ -131,25 +131,27 @@ export default function LandingPage() {
   <div id="amenities" data-section="amenities">
       <FeatureCardTwentyOne
       useInvertedBackground={false}
-      title="World-Class Amenities Await Your Discovery"
-      description="From our pristine infinity pools to gourmet dining and rejuvenating spa services, every detail at Lamar Azur Hotel is meticulously crafted for your utmost pleasure and relaxation."
+      title="Endless Family Fun and World-Class Amenities for All Ages"
+      description="Lamar Azur Hotel is crafted to provide a truly memorable vacation for every family member. From exhilarating kids' activities to relaxing adult escapes, our extensive amenities ensure everyone finds their perfect way to unwind and play."
       tag="Indulge Your Senses"
       accordionItems={[
         {
-          id: "1",          title: "Luxurious Rooms & Suites",          content: "Experience ultimate comfort in our elegantly designed rooms and spacious suites, each offering stunning views and premium amenities."},
+          id: "1",          title: "Luxurious Rooms & Suites",          content: "Experience ultimate comfort in our elegantly designed rooms and spacious suites, including family-friendly options, each offering stunning views and premium amenities."},
         {
-          id: "2",          title: "Exquisite Dining Experiences",          content: "Savor culinary masterpieces at our diverse restaurants, offering local delicacies and international cuisine in breathtaking settings."},
+          id: "2",          title: "Exquisite Dining Experiences",          content: "Savor culinary masterpieces at our diverse restaurants, offering local delicacies, international cuisine, and kid-friendly menus in breathtaking settings."},
         {
-          id: "3",          title: "Infinity Pool & Private Beach",          content: "Dive into relaxation at our stunning infinity pool overlooking the sea, or unwind on our exclusive private beach."},
+          id: "3",          title: "Family-Friendly Pools & Private Beach",          content: "Dive into relaxation at our stunning family-friendly pools overlooking the sea, or unwind on our exclusive private beach with dedicated areas for children."},
         {
           id: "4",          title: "Rejuvenating Spa & Wellness",          content: "Escape to our tranquil spa for a holistic experience, with treatments designed to revitalize your body and mind."},
         {
           id: "5",          title: "State-of-the-Art Fitness Center",          content: "Maintain your routine in our fully equipped fitness center, offering modern equipment and personalized training options."},
         {
           id: "6",          title: "Dedicated Event Spaces",          content: "Host unforgettable events in our versatile meeting rooms and elegant ballrooms, perfect for weddings, conferences, and celebrations."},
+        {
+          id: "7",          title: "Exciting Kids Club & Entertainment",          content: "Our dedicated Kids Club offers a safe and fun environment with supervised activities, games, and entertainment to keep our younger guests happily engaged."}
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/portrait-beautiful-young-asian-woman-relax-happy-smile-leisure-around-outdoor-swimming-pool_74190-11172.jpg"
-      imageAlt="Lamar Azur Hotel infinity pool overlooking the ocean"
+      imageSrc="http://img.b2bpic.net/free-photo/family-swimming-pool_1150-10118.jpg"
+      imageAlt="Family enjoying a large swimming pool at Lamar Azur Hotel"
       mediaAnimation="slide-up"
       mediaPosition="right"
     />
@@ -163,20 +165,20 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "1",          name: "Deluxe King Room",          price: "EGP 4,005/night",          variant: "Spacious comfort",          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-frankenstein-sitting-table_23-2149636929.jpg",          imageAlt: "Deluxe King Room at Lamar Azur Hotel"},
+          id: "1",          name: "Deluxe King Room",          price: "EGP 4,005/night",          variant: "Spacious comfort",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-inside-hotel-room_23-2149160759.jpg",          imageAlt: "Deluxe King Room at Lamar Azur Hotel"},
         {
-          id: "2",          name: "Executive Suite",          price: "EGP 6,500/night",          variant: "Luxury & Space",          imageSrc: "http://img.b2bpic.net/free-photo/pillow-bed_74190-3649.jpg",          imageAlt: "Executive Suite living area"},
+          id: "2",          name: "Executive Suite",          price: "EGP 6,500/night",          variant: "Luxury & Space",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-hotel-insights-details_23-2149160766.jpg",          imageAlt: "Executive Suite living area"},
         {
-          id: "3",          name: "Family Ocean View",          price: "EGP 5,200/night",          variant: "Seaside Escape",          imageSrc: "http://img.b2bpic.net/free-photo/bed-pillow_74190-129.jpg",          imageAlt: "Family Ocean View Room with multiple beds"},
+          id: "3",          name: "Family Ocean View",          price: "EGP 5,200/night",          variant: "Seaside Escape",          imageSrc: "http://img.b2bpic.net/free-photo/luxury-hotel-room_140725-7033.jpg",          imageAlt: "Family Ocean View Room with multiple beds"},
         {
-          id: "4",          name: "Premier Ocean View",          price: "EGP 4,800/night",          variant: "Breathtaking Views",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-asian-woman-relax-smile-happy-around-swimming-pool-hotel-resort_74190-8862.jpg",          imageAlt: "Premier Ocean View Room balcony"},
+          id: "4",          name: "Premier Ocean View",          price: "EGP 4,800/night",          variant: "Breathtaking Views",          imageSrc: "http://img.b2bpic.net/free-photo/room-hotel_1203-7220.jpg",          imageAlt: "Premier Ocean View Room balcony"},
         {
-          id: "5",          name: "Standard Double Room",          price: "EGP 3,200/night",          variant: "Cozy & Modern",          imageSrc: "http://img.b2bpic.net/free-photo/white-towel-table-bathroom-take-bath-shower_74190-13282.jpg",          imageAlt: "Standard Double Room interior"},
+          id: "5",          name: "Standard Double Room",          price: "EGP 3,200/night",          variant: "Cozy & Modern",          imageSrc: "http://img.b2bpic.net/free-photo/comfortable-elegant-hotel-room_23-2149495034.jpg",          imageAlt: "Standard Double Room interior"},
         {
-          id: "6",          name: "Grand Executive Suite",          price: "EGP 8,000/night",          variant: "Ultimate Luxury",          imageSrc: "http://img.b2bpic.net/free-photo/two-businesspeople-sitting-together-checking-document-caf_23-2147876718.jpg",          imageAlt: "Grand Executive Suite with separate living room"},
+          id: "6",          name: "Grand Executive Suite",          price: "EGP 8,000/night",          variant: "Ultimate Luxury",          imageSrc: "http://img.b2bpic.net/free-photo/luxurious-living-room_23-2148906967.jpg",          imageAlt: "Grand Executive Suite with separate living room"},
       ]}
-      title="Discover Our Elegant Accommodations & Suites"
-      description="Each room and suite at Lamar Azur Hotel is a sanctuary of comfort, designed with modern aesthetics and equipped with premium amenities to ensure a restful and memorable stay."
+      title="Luxurious Accommodations Designed for Ultimate Family Comfort"
+      description="Our spacious rooms and suites are thoughtfully designed to cater to families, offering a harmonious blend of modern elegance, premium amenities, and stunning views for a truly relaxing and memorable stay."
       tag="Your Perfect Stay"
     />
   </div>
@@ -188,16 +190,18 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "1",          value: "668+",          title: "Positive Reviews",          description: "Our guests consistently share their exceptional experiences.",          imageSrc: "http://img.b2bpic.net/free-photo/successful-happy-business-team_53876-15147.jpg",          imageAlt: "Happy diverse group of people"},
+          id: "1",          value: "668+",          title: "Positive Reviews",          description: "Our guests consistently share their exceptional experiences.",          imageSrc: "http://img.b2bpic.net/free-photo/happy-people-celebrating_23-2149021670.jpg",          imageAlt: "Happy diverse group of people"},
         {
-          id: "2",          value: "10+",          title: "Years of Service",          description: "Proudly serving guests with luxury hospitality for over a decade.",          imageSrc: "http://img.b2bpic.net/free-photo/sunny-urban-landscape_23-2149504779.jpg",          imageAlt: "Elegant hotel historical building"},
+          id: "2",          value: "10+",          title: "Years of Service",          description: "Proudly serving guests with luxury hospitality for over a decade.",          imageSrc: "http://img.b2bpic.net/free-photo/modern-building-architectural-structure_23-2149257620.jpg",          imageAlt: "Elegant hotel historical building"},
         {
-          id: "3",          value: "4.3",          title: "Star Rating",          description: "Consistently recognized for our high standards of service and amenities.",          imageSrc: "http://img.b2bpic.net/free-photo/winner-concept-with-golden-balloons_23-2149059967.jpg",          imageAlt: "Golden award trophy"},
+          id: "3",          value: "4.3",          title: "Star Rating",          description: "Consistently recognized for our high standards of service and amenities.",          imageSrc: "http://img.b2bpic.net/free-photo/golden-star-trophy-against-dark-background_23-2149022068.jpg",          imageAlt: "Golden award trophy"},
         {
-          id: "4",          value: "120+",          title: "Rooms & Suites",          description: "A wide selection of accommodations to suit every preference and need.",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-hotel-insights-details_23-2149160766.jpg",          imageAlt: "Luxurious empty hotel room"},
+          id: "4",          value: "120+",          title: "Rooms & Suites",          description: "A wide selection of accommodations to suit every preference and need.",          imageSrc: "http://img.b2bpic.net/free-photo/minimalist-hotel-room-interior-design_23-2149160759.jpg",          imageAlt: "Luxurious empty hotel room"},
+        {
+          id: "5",          value: "Endless",          title: "Family Activities",          description: "From kids' clubs to water sports, there's always something exciting for everyone.",          imageSrc: "http://img.b2bpic.net/free-photo/happy-family-swimming-pool_1150-10118.jpg",          imageAlt: "Happy family in swimming pool"}
       ]}
-      title="A Commitment to Unforgettable Experiences"
-      description="We pride ourselves on creating memorable stays, reflected in our exceptional guest satisfaction and numerous accolades within the hospitality industry."
+      title="Our Dedication to Exceeding Family Expectations"
+      description="Lamar Azur Hotel is committed to providing exceptional experiences for every guest, especially families. Our accolades and guest satisfaction reflect our passion for creating joyous and memorable vacations."
       tag="Our Achievements"
     />
   </div>
@@ -208,19 +212,19 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",          name: "Fatima Zahra",          date: "May 2024",          title: "A Dream Vacation",          quote: "Lamar Azur Hotel offered the perfect escape. The staff were incredibly friendly and accommodating, and the facilities were pristine. We felt truly pampered!",          tag: "Family Stay",          avatarSrc: "http://img.b2bpic.net/free-photo/confident-attractive-businesswoman-ready-business_176420-19302.jpg",          avatarAlt: "Fatima Zahra avatar",          imageSrc: "http://img.b2bpic.net/free-photo/embraced-couple-bathrobes-talking-while-relaxing-bed-hotel-room_637285-7656.jpg",          imageAlt: "Couple enjoying hotel balcony view"},
+          id: "1",          name: "Fatima Zahra",          date: "May 2024",          title: "A Dream Vacation",          quote: "Lamar Azur Hotel offered the perfect escape. The staff were incredibly friendly and accommodating, and the facilities were pristine. We felt truly pampered!",          tag: "Family Stay",          avatarSrc: "http://img.b2bpic.net/free-photo/confident-attractive-businesswoman-ready-business_176420-19302.jpg",          avatarAlt: "Fatima Zahra avatar",          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-drink_23-2149666010.jpg",          imageAlt: "Couple enjoying hotel balcony view"},
         {
-          id: "2",          name: "Youssef Ali",          date: "April 2024",          title: "Exceptional Service",          quote: "The attention to detail at Lamar Azur is unmatched. From check-in to check-out, every moment was seamless. Highly recommend the dining options!",          tag: "Business Trip",          avatarSrc: "http://img.b2bpic.net/free-photo/handsome-groom-classy-black-suit-stands-dark-room_8353-7083.jpg",          avatarAlt: "Youssef Ali avatar",          imageSrc: "http://img.b2bpic.net/free-photo/two-curly-multiracial-sisters-standing-near-pool-stairs-their-caucasian-mother-pool_1157-49489.jpg",          imageAlt: "Family playing by hotel pool"},
+          id: "2",          name: "Youssef Ali",          date: "April 2024",          title: "Exceptional Service",          quote: "The attention to detail at Lamar Azur is unmatched. From check-in to check-out, every moment was seamless. Highly recommend the dining options!",          tag: "Business Trip",          avatarSrc: "http://img.b2bpic.net/free-photo/handsome-groom-classy-black-suit-stands-dark-room_8353-7083.jpg",          avatarAlt: "Youssef Ali avatar",          imageSrc: "http://img.b2bpic.net/free-photo/parents-their-children-hotel-balcony_23-2148762510.jpg",          imageAlt: "Family playing by hotel pool"},
         {
-          id: "3",          name: "Nour Hassan",          date: "March 2024",          title: "Relaxing Retreat",          quote: "The spa treatments were divine, and the tranquil ambiance of the entire hotel was exactly what I needed to unwind. A truly rejuvenating experience.",          tag: "Wellness Journey",          avatarSrc: "http://img.b2bpic.net/free-photo/woman-having-fun-with-friends-by-sea_23-2149347007.jpg",          avatarAlt: "Nour Hassan avatar",          imageSrc: "http://img.b2bpic.net/free-photo/view-pretty-tanned-woman-black-vintage-bikini-lies-green-sun-bed-amazing-villa-sunny-day-resting-enjoying-vacation_343596-2545.jpg",          imageAlt: "Woman relaxing at hotel spa"},
+          id: "3",          name: "Nour Hassan",          date: "March 2024",          title: "Relaxing Retreat",          quote: "The spa treatments were divine, and the tranquil ambiance of the entire hotel was exactly what I needed to unwind. A truly rejuvenating experience.",          tag: "Wellness Journey",          avatarSrc: "http://img.b2bpic.net/free-photo/woman-having-fun-with-friends-by-sea_23-2149347007.jpg",          avatarAlt: "Nour Hassan avatar",          imageSrc: "http://img.b2bpic.net/free-photo/woman-getting-spa-treatment_23-2148762699.jpg",          imageAlt: "Woman relaxing at hotel spa"},
         {
-          id: "4",          name: "Khaled El-Sayed",          date: "February 2024",          title: "Culinary Delights",          quote: "The food at Lamar Azur Hotel was absolutely incredible. Every meal was a delightful experience, with fresh ingredients and exquisite presentation. A foodie's paradise!",          tag: "Food Lover",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-man-cartoon-style_23-2151133862.jpg",          avatarAlt: "Khaled El-Sayed avatar",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-adult-couple-have-luxury-dinner-evening-time_146671-14526.jpg",          imageAlt: "Couple dining in a fine restaurant"},
+          id: "4",          name: "Khaled El-Sayed",          date: "February 2024",          title: "Culinary Delights",          quote: "The food at Lamar Azur Hotel was absolutely incredible. Every meal was a delightful experience, with fresh ingredients and exquisite presentation. A foodie's paradise!",          tag: "Food Lover",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-man-cartoon-style_23-2151133862.jpg",          avatarAlt: "Khaled El-Sayed avatar",          imageSrc: "http://img.b2bpic.net/free-photo/fine-dining-couple_23-2149071569.jpg",          imageAlt: "Couple dining in a fine restaurant"},
         {
-          id: "5",          name: "Eleanor V.",          date: "January 2024",          title: "Exceptional Ambiance",          quote: "The serene atmosphere and elegant design truly made my stay memorable. Every corner exudes luxury and comfort. Highly recommend!",          tag: "Solo Retreat",          avatarSrc: "http://img.b2bpic.net/free-photo/smiley-woman-posing_23-2148497205.jpg",          avatarAlt: "happy business woman portrait smiling",          imageSrc: "http://img.b2bpic.net/free-photo/modern-sauna-interior-with-mountain-view-wood-light_169016-70841.jpg?_wi=2",          imageAlt: "happy business woman portrait smiling"
+          id: "5",          name: "Eleanor V.",          date: "January 2024",          title: "Exceptional Ambiance",          quote: "The serene atmosphere and elegant design truly made my stay memorable. Every corner exudes luxury and comfort. Highly recommend!",          tag: "Solo Retreat",          avatarSrc: "http://img.b2bpic.net/free-photo/smiley-woman-posing_23-2148497205.jpg",          avatarAlt: "happy business woman portrait smiling",          imageSrc: "http://img.b2bpic.net/free-photo/happy-family-with-little-daughter-playing-beach-vacation_1203-7226.jpg",          imageAlt: "happy business woman portrait smiling"
         },
       ]}
-      title="Unforgettable Moments, Lasting Impressions"
-      description="Hear directly from our cherished guests about their experiences at Lamar Azur Hotel. Their glowing reviews are a testament to our dedication to hospitality and luxury."
+      title="Hear From Families Who Loved Their Lamar Azur Experience"
+      description="Our guests, especially families, share their joyful and relaxing experiences at Lamar Azur Hotel. Their glowing reviews highlight our commitment to exceptional service and unforgettable moments for all ages."
       tag="What Our Guests Say"
     />
   </div>
@@ -237,9 +241,11 @@ export default function LandingPage() {
           id: "3",          title: "Are pets allowed at Lamar Azur Hotel?",          content: "Unfortunately, for the comfort and safety of all our guests, pets are not permitted on the hotel premises."},
         {
           id: "4",          title: "Is there parking available at the hotel?",          content: "Yes, we provide complimentary on-site parking for all our guests. Valet parking services are also available."},
+        {
+          id: "5",          title: "What family and children's activities are available?",          content: "Our resort offers a variety of activities for children and adults, including a supervised Kids Club, dedicated play areas, water sports, and evening entertainment for the whole family. Please check our daily activity schedule upon arrival."}
       ]}
-      sideTitle="Your Questions, Answered"
-      sideDescription="Find quick answers to the most common inquiries about your stay, bookings, and hotel amenities at Lamar Azur."
+      sideTitle="Your Family's Questions, Answered"
+      sideDescription="Find quick answers to the most common inquiries about your family's stay, bookings, and the many amenities at Lamar Azur Hotel."
       buttons={[
         {
           text: "Contact Us Directly",          href: "#contact"},
@@ -254,8 +260,8 @@ export default function LandingPage() {
       background={{
         variant: "sparkles-gradient"}}
       tag="Plan Your Escape"
-      title="Book Your Unforgettable Stay at Lamar Azur Hotel"
-      description="Ready to experience the pinnacle of luxury and tranquility in Damietta El-Gadeeda? Contact us today to make a reservation or inquire about our special offers and personalized packages. Our team is eager to assist you."
+      title="Ready for Your Unforgettable Family Vacation in Damietta El-Gadeeda?"
+      description="Begin planning your dream family retreat at Lamar Azur Hotel. Contact us today to make a reservation, inquire about our family packages, or ask any questions. Our friendly team is here to help create your perfect stay."
       buttons={[
         {
           text: "Book Now",          href: "https://www.booking.com/hotel/eg/lamar-azur"},
