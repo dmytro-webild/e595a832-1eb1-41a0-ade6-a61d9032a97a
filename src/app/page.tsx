@@ -152,7 +152,7 @@ export default function LandingPage() {
         },
       ]}
       avatarText="Loved by thousands of guests"
-      imageSrc="http://img.b2bpic.net/free-photo/modern-sauna-interior-with-mountain-view-wood-light_169016-70841.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/modern-sauna-interior-with-mountain-view-wood-light_169016-70841.jpg?_wi=1"
       imageAlt="Lamar Azur Hotel luxurious lobby"
       mediaAnimation="slide-up"
       marqueeItems={[
@@ -411,7 +411,7 @@ export default function LandingPage() {
         },
         {
           id: "5",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-sauna-interior-with-mountain-view-wood-light_169016-70841.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/modern-sauna-interior-with-mountain-view-wood-light_169016-70841.jpg?_wi=2",
           imageAlt: "happy business woman portrait smiling",
         },
       ]}
